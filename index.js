@@ -18,7 +18,14 @@
        ".article.contribute",
        "#main_bottom > div:nth-child(59)",
        "#imdbHeader > div.ipc-page-content-container.ipc-page-content-container--center.navbar__inner > div.navbar__imdbpro.NavProFlyout-sc-1cjctnc-0.hoAGyu",
-       "#imdbHeader-navDrawerOpen--desktop"
+       "#imdbHeader-navDrawerOpen--desktop",
+       "#main_bottom > div:nth-child(60)",
+       "#sidebar > div:nth-child(19)",
+       "#ratingWidget",
+       "#suggestion-search-container",
+       "#sidebar > div:nth-child(19)",
+       "#sidebar > div:nth-child(20)",
+       "#imdbHeader > div.ipc-page-content-container.ipc-page-content-container--center.navbar__inner > div.Root__Separator-sc-7p0yen-1.cECatH"
     ];
 
     const remove = selector => {
@@ -39,7 +46,12 @@
 
         var styles = `
 
-             
+            .imdb-header__watchlist-button{
+                  margin-left: auto;
+             }
+             .imdb-header__logo-link{
+                  margin-left: 0;
+             }
    `
 
         var styleSheet = document.createElement("style")
