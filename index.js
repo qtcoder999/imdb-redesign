@@ -2,7 +2,7 @@
 // @name         imdb content remover
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  try to take over the world!
+// @description  Script tries to minimize the imdb clutter.
 // @author       Paras Anand
 // @match        https://www.imdb.com/*
 // @grant        none
@@ -25,7 +25,9 @@
        "#suggestion-search-container",
        "#sidebar > div:nth-child(19)",
        "#sidebar > div:nth-child(20)",
-       "#imdbHeader > div.ipc-page-content-container.ipc-page-content-container--center.navbar__inner > div.Root__Separator-sc-7p0yen-1.cECatH"
+       "#imdbHeader > div.ipc-page-content-container.ipc-page-content-container--center.navbar__inner > div.Root__Separator-sc-7p0yen-1.cECatH",
+       "#social-share-widget",
+       "#feedback-widget"
     ];
 
     const remove = selector => {
