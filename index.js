@@ -27,7 +27,9 @@
        "#sidebar > div:nth-child(20)",
        "#imdbHeader > div.ipc-page-content-container.ipc-page-content-container--center.navbar__inner > div.Root__Separator-sc-7p0yen-1.cECatH",
        "#social-share-widget",
-       "#feedback-widget"
+       "#feedback-widget",
+       "#relatedEditorialListsWidget",
+       ".banner-container"
     ];
 
     const remove = selector => {
@@ -54,6 +56,7 @@
              .imdb-header__logo-link{
                   margin-left: 0;
              }
+
    `
 
         var styleSheet = document.createElement("style")
